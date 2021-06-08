@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500&;@700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 
     <link rel="stylesheet" href="./styles/style.css">
@@ -16,7 +16,102 @@
 </head>
 
 <body>
-    
+    <div class="container">
+        <div class="calculator-container">
+            <header>
+                <h2>calc</h2>
+
+                <div class="switch-theme">
+                    <small>THEME</small>
+                </div>
+            </header>
+
+            <div class="calculator-results">
+                <input type="text" id="result" value="3443">
+            </div>
+
+            <div class="container-keys">
+                <div class="container-numbers">
+                    <div class="numbers">
+                        <div class="key">
+                            <a href="#">7</a>
+                        </div>
+
+                        <div class="key">
+                            <a href="#">8</a>
+                        </div>
+
+                        <div class="key">
+                            <a href="#">9</a>
+                        </div>
+                        <div class="key delete">
+                            <a href="#" id="delete">DEL</a>
+                        </div>
+                    </div>
+
+                    <div class="numbers">
+                        <div class="key">
+                            <a href="#">4</a>
+                        </div>
+
+                        <div class="key">
+                            <a href="#">5</a>
+                        </div>
+
+                        <div class="key">
+                            <a href="#">6</a>
+                        </div>
+                        
+                        <div class="key">
+                            <a href="#">+</a>
+                        </div>
+                    </div>
+
+                    <div class="numbers">
+                        <div class="key">
+                            <a href="#">1</a>
+                        </div>
+
+                        <div class="key">
+                            <a href="#">2</a>
+
+                        </div>
+                        <div class="key">
+                            <a href="#">3</a>
+
+                        </div>
+                        <div class="key">
+                            <a href="#">-</a>
+                        </div>
+                    </div>
+
+                    <div class="numbers">
+                        <div class="key">
+                            <a href="#">.</a>
+                        </div>
+
+                        <div class="key">
+                            <a href="#">0</a>
+
+                        </div>
+                        <div class="key">
+                            <a href="#">/</a>
+
+                        </div>
+                        <div class="key">
+                            <a href="#">x</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-buttons">
+                    <a href="#" class="reset">RESET</a>
+                    <a href="#" class="equal">=</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 </body>
 
 </html>
