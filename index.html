@@ -26,92 +26,64 @@
                 </div>
             </header>
 
-            <div class="calculator-results">
-                <input type="text" id="result" value="3443">
-            </div>
-
-            <div class="container-keys">
-                <div class="container-numbers">
-                    <div class="numbers">
-                        <div class="key">
-                            <a href="#">7</a>
-                        </div>
-
-                        <div class="key">
-                            <a href="#">8</a>
-                        </div>
-
-                        <div class="key">
-                            <a href="#">9</a>
-                        </div>
-                        <div class="key delete">
-                            <a href="#" id="delete">DEL</a>
-                        </div>
-                    </div>
-
-                    <div class="numbers">
-                        <div class="key">
-                            <a href="#">4</a>
-                        </div>
-
-                        <div class="key">
-                            <a href="#">5</a>
-                        </div>
-
-                        <div class="key">
-                            <a href="#">6</a>
-                        </div>
-                        
-                        <div class="key">
-                            <a href="#">+</a>
-                        </div>
-                    </div>
-
-                    <div class="numbers">
-                        <div class="key">
-                            <a href="#">1</a>
-                        </div>
-
-                        <div class="key">
-                            <a href="#">2</a>
-
-                        </div>
-                        <div class="key">
-                            <a href="#">3</a>
-
-                        </div>
-                        <div class="key">
-                            <a href="#">-</a>
-                        </div>
-                    </div>
-
-                    <div class="numbers">
-                        <div class="key">
-                            <a href="#">.</a>
-                        </div>
-
-                        <div class="key">
-                            <a href="#">0</a>
-
-                        </div>
-                        <div class="key">
-                            <a href="#">/</a>
-
-                        </div>
-                        <div class="key">
-                            <a href="#">x</a>
-                        </div>
-                    </div>
+            <form action="" id="form">
+                <div class="calculator-results">
+                    <input id="result" value="">
                 </div>
 
-                <div class="container-buttons">
-                    <a href="#" class="reset">RESET</a>
-                    <a href="#" class="equal">=</a>
+                <div class="container-keys">
+                    <div class="container-numbers">
+                        <div class="numbers">
+                            <input id="seven" value="7" readonly>
+
+                            <input id="eight" value="8" readonly>
+
+                            <input id="nine" value="9" readonly>
+
+                            <input id="delete" value="DEL" readonly>
+                        </div>
+
+                        <div class="numbers">
+                            <input id="four" value="4" readonly>
+
+                            <input id="five" value="5" readonly>
+
+                            <input id="six" value="6" readonly>
+
+                            <input id="plus" value="+" readonly>
+                        </div>
+
+                        <div class="numbers">
+                            <input id="one" value="1" readonly>
+
+                            <input id="two" value="2" readonly>
+
+                            <input id="three" value="3" readonly>
+
+                            <input id="minus" value="-" readonly>
+                        </div>
+
+                        <div class="numbers">
+                            <input id="comma" value="." readonly>
+
+                            <input id="zero" value="0" readonly>
+
+                            <input id="division" value="/" readonly>
+
+                            <input id="multiplication" value="x" readonly>
+                        </div>
+                    </div>
+
+                    <div class="container-buttons">
+                        <button type="reset" class="reset">RESET</button>
+                        <button type="" class="equal">=</button>
+                    </div>
                 </div>
-            </div>
-            
+            </form>
         </div>
     </div>
+
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>
